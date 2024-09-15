@@ -31,10 +31,6 @@ const TicketSchema = new mongoose.Schema({
         maxLength:10,
         trim:true
     },
-    type:{
-        type:String,
-        default:"ticket"
-    },
     time: {
         type: Date,  // Date will store both date and time
         required: true,
